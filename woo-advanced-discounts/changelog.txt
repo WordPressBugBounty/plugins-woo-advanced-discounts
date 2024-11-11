@@ -1,5 +1,10 @@
+= 2.32.2 =
+* Increased minimum PHP version to 7.0
+* Added compatibility with WordPress 6.6
+* Added compatibility with WooCommerce 9.3.3
+
 = 2.32.1 =
-* Added missing sellect2 files
+* Added missing select2 files
 * Added compatibility with WooCommerce version 8.5.2
 
 = 2.32 =
