@@ -82,20 +82,7 @@ class Wad_Admin {
 		wp_enqueue_script( 'o-admin', plugin_dir_url( __FILE__ ) . 'js/o-admin.js', array( 'jquery' ), WAD_VERSION, false );
 		wp_enqueue_script( 'wad-tabs', plugin_dir_url( __FILE__ ) . 'js/SpryAssets/SpryTabbedPanels.js', array( 'jquery' ), WAD_VERSION, false );
 		wp_enqueue_script( 'wad-serializejson', plugin_dir_url( __FILE__ ) . 'js/jquery.serializejson.min.js', array( 'jquery' ), WAD_VERSION, false );
-		wp_enqueue_script( 'wad-datetimepicker', plugin_dir_url( __FILE__ ) . 'js/o-datetimepicker/jquery.datetimepicker.full.min.js', array( 'jquery' ), WAD_VERSION, false );
-	}
-
-		/*
-	 * disable acf timepicker script as needed
-	 */
-	function acf_pro_dequeue_script() {
-		if ( class_exists( 'acf' ) && is_admin() ) {
-			$data = filter_input( INPUT_GET, 'post' );
-		}
-
-		if ( strpos( $_SERVER['REQUEST_URI'], '?post_type=o-discount' ) || get_post_type( $data ) == 'o-discount' ) {
-				wp_dequeue_script( 'acf-timepicker' );
-		}
+		wp_enqueue_script( 'wad-datetimepicker', plugin_dir_url( __FILE__ ) . 'js/o-datetimepicker/jquery.datetimepicker.full.min.js', array( 'jquery' ), WAD_VERSION, true );
 	}
 
 	public static function get_max_input_vars_php_ini() {

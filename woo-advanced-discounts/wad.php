@@ -16,7 +16,7 @@
  * Plugin Name:       Conditional Discounts for WooCommerce - A simple yet complete woocommerce dynamic pricing plugin
  * Plugin URI:        https://www.orionorigin.com/product/conditional-discounts-for-woocommerce/?utm_source=Installed+free+plugin&utm_medium=Plugin+URI&utm_campaign=WAD
  * Description:       Manage your shop discounts like a pro.
- * Version:           2.32.2
+ * Version:           2.32.3
  * Author:            ORION
  * Author URI:        https://www.orionorigin.com/?utm_source=Installed+free+plugin&utm_medium=Author+URI&utm_campaign=WAD
  * License:           GPL-2.0+
@@ -43,7 +43,7 @@ add_action('before_woocommerce_init', function(){
 });
 
 
-define( 'WAD_VERSION', '2.32.2' );
+define( 'WAD_VERSION', '2.32.3' );
 define( 'WAD_URL', plugins_url( '/', __FILE__ ) );
 define( 'WAD_DIR', __DIR__ );
 define( 'WAD_MAIN_FILE', 'woocommerce-all-discounts/wad.php' );

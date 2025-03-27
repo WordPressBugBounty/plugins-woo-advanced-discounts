@@ -1,11 +1,11 @@
 ===  Conditional Discounts for WooCommerce - A simple yet complete woocommerce dynamic pricing plugin ===
 Contributors: orionorigin, mano88, donaldlaly
 Donate link: https://www.orionorigin.com/product/conditional-discounts-for-woocommerce/?utm_source=wordpress.org&utm_medium=cpc&utm_campaign=Woocommerce%20All%20Discounts
-Tags: WooCommerce dynamic pricing, WooCommerce bulk discount, WooCommerce quantity discount, WooCommerce role based pricing, WooCommerce discount plugin, category discount, user role discount, customer role discount, discount, bulk pricing, cart discount, Buy One Get One Free
+Tags: WooCommerce dynamic pricing, WooCommerce bulk discount, WooCommerce quantity discount, WooCommerce role based pricing, WooCommerce discount plugin
 Requires at least: 3.5
 Requires PHP: 7.0
-Tested up to: 6.6.2
-Stable tag: 2.32.2
+Tested up to: 6.7
+Stable tag: 2.32.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -176,6 +176,11 @@ Conditional Discounts for WooCommerce works with any theme, including the defaul
 3. Product quantity based pricing page
 
 == Changelog ==
+= 2.32.3 =
+* Fixed conflict with ACF plugin
+* Added compatibility with WC 9.7
+* Added compatibility with WordPress 6.7
+
 = 2.32.2 =
 * Increased minimum PHP version to 7.0
 * Added compatibility with WordPress 6.6
